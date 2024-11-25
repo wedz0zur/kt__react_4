@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e7ec;
+}
+
+.products-container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    padding: 20px;
+}
+
+.product-card {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: white;
+    text-align: center;
+    height: 150px;
+}
+
+
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 20px;
+    color: #333;
+}
+
+.span{
+    color: red;
+}
+
+.product-page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.product-details-container {
+    border: solid #ccc 1px ;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    p{
+        font-size: 19px;
+    };
+    button{
+        border: 0;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #007bff;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+}
+
+.product-details img {
+    max-width: 300px;
+}
+
+.product-details div {
+    max-width: 600px;
+}
+
+.product-details h1 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.product-details p {
+    margin-bottom: 8px;
+}
+
+.back-button {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    font-size: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+.fa-star {
+    color: gray; 
+}
+
+.fa-star.active {
+    color: gold; 
+}
+
+
+.not-found-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.not-found-page h1 {
+    font-size: 18px;
+}
+
+.not-found-page a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
