@@ -24,7 +24,7 @@ const Product = ({id}) => {
                     <p>{product.description}</p>
                     <p>Category: {product.category}</p>
                     <p>Price: <span className="span">{product.price} $</span></p>
-                    <Rating rating={product.rating?.rate || 0} />
+                    <Rating rating={product.rating?.rate} />
                     <a href="/"><button>Назад</button></a>
                 </div>
             </div>
